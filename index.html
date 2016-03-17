@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
 	<title>Infinite Music Trivia</title>
+	<meta charset="utf-8">
 	<meta name="application-name" content="Infinite Music Trivia">
-	<meta name="description" content="You think you know about music? You can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!"/>
+	<meta name="description" content="You think you know about music? That you can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!"/>
 
 	<!-- iOs tags -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -21,26 +21,26 @@
 
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="Infinite Music Trivia">
-	<meta itemprop="description" content="You think you know about music? You can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!">
-	<meta itemprop="image" content="http://imt.rocks/images/meta-logo.jpg">
+	<meta itemprop="description" content="You think you know about music? That you can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!">
+	<meta itemprop="image" content="https://imt.rocks/images/infinite-music-trivia_share.png">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary">
-
 	<meta name="twitter:site" content="@imt">
 	<meta name="twitter:title" content="Infinite Music Trivia">
-	<meta name="twitter:description" content="You think you know about music? You can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!">
+	<meta name="twitter:description" content="You think you know about music? That you can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!">
 	<meta name="twitter:creator" content="@imt">
 
 	<!-- Open Graph data -->
 	<meta property="og:title" content="Infinite Music Trivia" />
 	<meta property="og:type" content="game" />
-	<meta property="og:url" content="http://imt.rocks/" />
-	<meta property="og:image" content="http://imt.rocks/images/meta-logo.jpg" />
-	<meta property="og:description" content="You think you know about music? You can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!" />
+	<meta property="og:url" content="https://imt.rocks/" />
+	<meta property="og:image" content="https://imt.rocks/images/infinite-music-trivia_share.png">
+	<meta property="og:description" content="You think you know about music? That you can recognize any tune? Test your music knowledge and challenge your skills with Infinite Music Trivia!" />
 	<meta property="og:site_name" content="IMT" />
+	<meta property="fb:app_id" content="1104136212951513" />
 
-	<!-- Favicons -->
+	<!-- Apple -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
@@ -50,14 +50,34 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#8810D1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Infinite Music Trivia">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!-- Android -->
+	<link rel="icon" type="image/png" sizes="48x48" href="/icons/android-icon-48x48.png">
+	<link rel="icon" type="image/png" sizes="72x72" href="/icons/android-icon-72x72.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/icons/android-icon-96x96.png">
+	<link rel="icon" type="image/png" sizes="144x144" href="/icons/android-icon-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="256x256" href="/icons/android-icon-256x256.png">
+	<link rel="icon" type="image/png" sizes="384x384" href="/icons/android-icon-384x384.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="/icons/android-icon-512x512.png">
+	<meta name="theme-color" content="#8810D1">
+	<link rel="manifest" href="/icons/manifest.json">
+
+	<!-- General -->
 	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
+
+	<!-- Microsoft -->
+	<meta name="msapplication-TileColor" content="#8810D1">
+	<meta name="msapplication-navbutton-color" content="#8810D1">
 	<meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+
+	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="dist/style.css">
 </head>
 <body>
@@ -68,7 +88,7 @@
 	      appId      : '1104136212951513',
 	      xfbml      : true,
 	      version    : 'v2.5'
-	    });
+	    })
 	  };
 
 	  (function(d, s, id){
@@ -89,6 +109,10 @@
 	  ga('send', 'pageview');
 
 	</script>
-  <script type="text/javascript" src="dist/bundle.js"></script>
+	<!-- BEGIN TRACKJS -->
+	<script type="text/javascript">window._trackJs = { token: '6ac814cda15e45048d1fe3a78b35284e' };</script>
+	<script type="text/javascript" src="https://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js"></script>
+	<!-- END TRACKJS -->
+  	<script type="text/javascript" src="dist/bundle.js"></script>
 </body>
 </html>
